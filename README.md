@@ -76,7 +76,6 @@ The models were assessed using the following key **performance metrics**:
 - **Feature Engineering:** Financial Ratios, Normalization (MinMaxScaler), Handling Imbalanced Data (SMOTE, Stratified Sampling)  
 - **Modeling:** Logistic Regression, Random Forest, XGBoost, Neural Networks  
 - **Evaluation Metrics:** AUC-ROC, Confusion Matrix, False Negative Rate  
-- **Future Scope:** API Deployment (Flask/FastAPI), Streamlit Dashboard  
 
 ---
 
