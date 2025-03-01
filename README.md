@@ -2,16 +2,27 @@
 ### Predicting Corporate Financial Distress with Machine Learning  
 
 ## 🏆 Overview  
-This project is a **Data Science portfolio** piece focused on **predicting corporate bankruptcy** using financial data and machine learning techniques. The goal is to develop a **scalable and interpretable model** to assess financial risk and help investors, analysts, and decision-makers prevent financial losses.  
+This project is a **Data Science portfolio** piece focused on **predicting corporate bankruptcy** using **financial data and machine learning techniques**. The goal is to develop a **scalable and interpretable model** to assess **financial risk** and help **investors, analysts, and decision-makers** prevent financial losses.  
 
-We utilize financial statement indicators from the **Taiwan Economic Journal (1999-2009)**, applying **statistical analysis, feature engineering, and machine learning** to classify companies as **bankrupt or not bankrupt**.  
+This **Data Science portfolio project** is inspired by the methodology proposed in the research paper **"Financial Ratios and Corporate Governance Indicators in Bankruptcy Prediction: A Comprehensive Study"**, published in the **European Journal of Operational Research**. The study, conducted by **Deron Liang, Chia-Chi Lu, Chih-Fong Tsai, and Guan-An Shih** from **National Central University, Taiwan**, explores the use of **financial ratios (FRs) and corporate governance indicators (CGIs)** for predicting bankruptcy.  The **methodology employed in this portfolio** aligns with the structured approach of **Liang et al. (2016)** in predicting bankruptcy using **FRs and CGIs**. The **feature selection, preprocessing techniques, and modeling strategies** are adapted to incorporate **best practices** from the study while ensuring **applicability to modern machine learning methods**.  
+
+Additionally, this project compares **the original research-based model** with **other state-of-the-art machine learning models**, including **Random Forest, XGBoost, Support Vector Machines (SVM), and Multi-Layer Perceptron (MLP)**, to evaluate different approaches in bankruptcy prediction.  
+
+---
 
 ## 📂 Project Structure  
-1️⃣ **Exploratory Data Analysis (EDA):** Identifying financial patterns and key risk indicators.  
-2️⃣ **Feature Engineering:** Selecting relevant financial ratios and applying normalization techniques.  
-3️⃣ **Machine Learning Models:** Implementing **Logistic Regression, Random Forest, XGBoost, and more**.  
-4️⃣ **Model Evaluation:** Comparing **AUC-ROC, Precision-Recall, and False Negative Rate**.  
-5️⃣ **Interpretability:** Using **SHAP values** to explain model decisions.  
+This project is divided into **two main parts**:  
+
+### **📌 Part I: Data Exploration & Preprocessing**  
+1️⃣ **Project Overview** → Explains the context and objectives of the study.  
+2️⃣ **Dataset Download & Loading** → How the data was obtained and loaded.  
+3️⃣ **Dataset Characteristics** → Structure, variables, and initial insights.  
+4️⃣ **Exploratory Data Analysis (EDA)** → Distribution, correlation, and visualizations.  
+
+### **📌 Part II: Modeling & Evaluation**  
+5️⃣ **Feature Engineering & Data Preprocessing** → Normalization, balancing techniques.  
+6️⃣ **Modeling & Evaluation** → Machine Learning models and performance metrics.  
+7️⃣ **Conclusion** → Summary of insights and future directions.
 
 ---
 
