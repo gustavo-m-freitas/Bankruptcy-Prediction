@@ -93,4 +93,10 @@ In **bankruptcy prediction**, minimizing **False Negatives (FN)** is more critic
 
 🔹 **The research-based models (Liang et al., 2016) proved to be more effective in identifying bankruptcies, making them a better choice for real-world financial risk analysis.**  
 
+---
+
+## ⚠️ Important Note  
+This project was developed as part of a **Data Science portfolio** to demonstrate the application of **machine learning techniques** in bankruptcy prediction. The results are **not intended to serve as conclusive financial advice** or a **scientific study**. The models were tested within the dataset’s constraints and do not account for external economic conditions, financial market fluctuations, or regulatory changes.  
+
+
 
