@@ -14,15 +14,15 @@ Additionally, this project compares **the original research-based model** with *
 This project is divided into **two main parts**:  
 
 ### ** Part I: Data Exploration & Preprocessing**  
-1️⃣ **Project Overview** → Explains the context and objectives of the study.  
-2️⃣ **Dataset Download & Loading** → How the data was obtained and loaded.  
-3️⃣ **Dataset Characteristics** → Structure, variables, and initial insights.  
-4️⃣ **Exploratory Data Analysis (EDA)** → Distribution, correlation, and visualizations.  
+1️ **Project Overview** → Explains the context and objectives of the study.  
+2️ **Dataset Download & Loading** → How the data was obtained and loaded.  
+3️ **Dataset Characteristics** → Structure, variables, and initial insights.  
+4️ **Exploratory Data Analysis (EDA)** → Distribution, correlation, and visualizations.  
 
 ### ** Part II: Modeling & Evaluation**  
-5️⃣ **Feature Engineering & Data Preprocessing** → Normalization, balancing techniques.  
-6️⃣ **Modeling & Evaluation** → Machine Learning models and performance metrics.  
-7️⃣ **Conclusion** → Summary of insights and future directions.
+5️ **Feature Engineering & Data Preprocessing** → Normalization, balancing techniques.  
+6️ **Modeling & Evaluation** → Machine Learning models and performance metrics.  
+7️ **Conclusion** → Summary of insights and future directions.
 
 ---
 
@@ -90,7 +90,7 @@ The models were assessed using the following key **performance metrics**:
 ## Conclusion  
 In **bankruptcy prediction**, minimizing **False Negatives (FN)** is more critical than achieving high accuracy. This study demonstrates how a **data-driven approach** can improve financial risk assessment, balancing **predictive power and interpretability**.  
 
-🔹 **The research-based models (Liang et al., 2016) proved to be more effective in identifying bankruptcies, making them a better choice for real-world financial risk analysis.**  
+**The research-based models (Liang et al., 2016) proved to be more effective in identifying bankruptcies, making them a better choice for real-world financial risk analysis.**  
 
 ---
 
