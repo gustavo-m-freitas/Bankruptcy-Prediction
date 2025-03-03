@@ -1,10 +1,10 @@
 # 📊 Bankruptcy Prediction  
 ### Predicting Corporate Financial Distress with Machine Learning  
 
-## 🏆 Overview  
-This project is a **Data Science portfolio** piece focused on **predicting corporate bankruptcy** using **financial data and machine learning techniques**. The goal is to develop a **scalable and interpretable model** to assess **financial risk** and help **investors, analysts, and decision-makers** prevent financial losses.  
+## Overview  
+This project is a **Data Science portfolio** piece focused on **predicting corporate bankruptcy** using **financial data and machine learning techniques**. The goal is to develop a scalable and interpretable model to assess financial risk and help investors, analysts, and decision-makers prevent financial losses.  
 
-This **Data Science portfolio project** is inspired by the methodology proposed in the research paper **"Financial Ratios and Corporate Governance Indicators in Bankruptcy Prediction: A Comprehensive Study"**, published in the **European Journal of Operational Research**. The study, conducted by **Deron Liang, Chia-Chi Lu, Chih-Fong Tsai, and Guan-An Shih** from **National Central University, Taiwan**, explores the use of **financial ratios (FRs) and corporate governance indicators (CGIs)** for predicting bankruptcy.  The **methodology employed in this portfolio** aligns with the structured approach of **Liang et al. (2016)** in predicting bankruptcy using **FRs and CGIs**. The **feature selection, preprocessing techniques, and modeling strategies** are adapted to incorporate **best practices** from the study while ensuring **applicability to modern machine learning methods**.  
+This **Data Science portfolio project** is inspired by the methodology proposed in the research paper **"Financial Ratios and Corporate Governance Indicators in Bankruptcy Prediction: A Comprehensive Study"**, published in the **European Journal of Operational Research**. The study, conducted by **Deron Liang, Chia-Chi Lu, Chih-Fong Tsai, and Guan-An Shih** from **National Central University, Taiwan**, explores the use of financial ratios (FRs) and corporate governance indicators (CGIs) for predicting bankruptcy.  The **methodology employed in this portfolio** aligns with the structured approach of **Liang et al. (2016)** in predicting bankruptcy using **FRs**. The **feature selection, preprocessing techniques, and modeling strategies** are adapted to incorporate **best practices** from the study while ensuring **applicability to modern machine learning methods**.  
 
 Additionally, this project compares **the original research-based model** with **other state-of-the-art machine learning models**, including **Random Forest, XGBoost, Support Vector Machines (SVM), and Multi-Layer Perceptron (MLP)**, to evaluate different approaches in bankruptcy prediction.  
 
@@ -13,13 +13,13 @@ Additionally, this project compares **the original research-based model** with *
 ## 📂 Project Structure  
 This project is divided into **two main parts**:  
 
-### **📌 Part I: Data Exploration & Preprocessing**  
+### ** Part I: Data Exploration & Preprocessing**  
 1️⃣ **Project Overview** → Explains the context and objectives of the study.  
 2️⃣ **Dataset Download & Loading** → How the data was obtained and loaded.  
 3️⃣ **Dataset Characteristics** → Structure, variables, and initial insights.  
 4️⃣ **Exploratory Data Analysis (EDA)** → Distribution, correlation, and visualizations.  
 
-### **📌 Part II: Modeling & Evaluation**  
+### ** Part II: Modeling & Evaluation**  
 5️⃣ **Feature Engineering & Data Preprocessing** → Normalization, balancing techniques.  
 6️⃣ **Modeling & Evaluation** → Machine Learning models and performance metrics.  
 7️⃣ **Conclusion** → Summary of insights and future directions.
@@ -29,15 +29,15 @@ This project is divided into **two main parts**:
 ## ⚖ Model Comparison: Research Paper vs. New Approaches  
 This project evaluates two different **bankruptcy prediction strategies**:  
 
-📖 **Paper Model (Liang et al., 2016)**  
-✅ **Stratified Sampling + Feature Selection**  
-✅ **85% Recall (Detects More Bankruptcies)**  
-✅ **Lower False Negatives (~14-15%)**  
+**Paper Model (Liang et al., 2016)**  
+**Stratified Sampling + Feature Selection**  
+**85% Recall (Detects More Bankruptcies)**  
+**Lower False Negatives (~14-15%)**  
 
-🚀 **New Models (SMOTE + Cross-Validation)**  
-❌ **Higher Accuracy (~95%) but Fails at Detecting Bankruptcies**  
-❌ **High False Negatives (~48-50%) → Nearly Half of Bankruptcies Are Missed**  
-❌ **Low Precision (~0.39 for XGBoost, 0.36 for RF)**  
+**New Models (SMOTE + Cross-Validation)**  
+**Higher Accuracy (~95%) but Fails at Detecting Bankruptcies**  
+**High False Negatives (~48-50%) → Nearly Half of Bankruptcies Are Missed**  
+**Low Precision (~0.39 for XGBoost, 0.36 for RF)**  
 
 🔎 **Key Finding:** The **paper’s methodology performs better in real-world financial risk assessment**, as it prioritizes **recall over accuracy**.  
 
@@ -87,7 +87,7 @@ The models were assessed using the following key **performance metrics**:
 
 ---
 
-## 🚀 Conclusion  
+## Conclusion  
 In **bankruptcy prediction**, minimizing **False Negatives (FN)** is more critical than achieving high accuracy. This study demonstrates how a **data-driven approach** can improve financial risk assessment, balancing **predictive power and interpretability**.  
 
 🔹 **The research-based models (Liang et al., 2016) proved to be more effective in identifying bankruptcies, making them a better choice for real-world financial risk analysis.**  
